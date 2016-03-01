@@ -1,0 +1,503 @@
+html,
+body{
+	height: 100%;
+	max-height: 100%;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;	
+}
+
+.header{
+	height: 100%;
+	width: 100%;
+	background-image: url("pictures/candelabru-alb.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 5%;
+}
+
+.vertical{
+	position: relative;
+	display: table;
+	width: 100%;
+}
+
+.vertical .inner{
+	position: absolute;
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.hero-unit{
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 10%; 
+	padding-right: 30%;
+}
+
+.hero-unit h1{
+	font-size: 80px;
+	line-height: 70%;
+	
+}
+
+.hero-unit p{
+	padding-right: 20%;
+	font-size: 24px;
+	line-height: 70%;
+	color: grey;
+}
+
+.hero-unit hr{
+	border: 1px solid grey;
+}
+
+.hero-unit .numbering{
+	padding-right: 20%;
+	font-size: 20px;
+	line-height: 70%;
+	color: grey;
+}
+
+.hero-unit .numbering > a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+}
+
+.hero-unit .numbering > a:hover{
+	border: 1px solid transparent;
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}
+
+.hero-unit .numbering > .focus:focus{
+	padding: 300px 200px 20px 20px;
+	border: 1px solid grey;
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}
+
+.focus::before{
+	margin: 0 auto;
+	border: none;
+}
+
+a::after{
+	content: "";
+}
+	
+.navigation-bar{
+	min-height: 150px;
+	width: 100%;
+	display: block;
+	margin: 0;
+	background-color: white;
+	transition: background-color 0.9s ease;
+}
+
+.navigation-bar:hover{
+	background-color: #213D30;
+}
+
+.navigation-bar .list{
+	width: 50%;
+	min-height: 150px;
+	margin: 0;
+	padding: 30px 0;
+}
+.navigation-bar .left{
+	float: left;
+}
+
+.navigation-bar .right{
+	float: right;
+}
+
+
+.navigation-bar .left > li{
+	display: inline;
+	float: left;
+	padding: 0 10px;
+	margin: 0;
+	list-style: none;
+}
+
+.navigation-bar .left li > a{
+	text-decoration: none;
+	color: grey;
+	padding: 30px;
+}
+
+.navigation-bar .left a:hover{
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	padding: 30px;
+	cursor: pointer;
+}
+
+.navigation-bar .right > li{
+	display: inline;
+	float: right;
+	padding: 0 10px;
+	margin: 0;
+	list-style: none;
+	
+}
+.navigation-bar .right li > a{
+	text-decoration: none;
+	color: grey;
+	padding: 30px;
+}
+
+.navigation-bar .right a:hover{
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	padding: 30px;
+	cursor: pointer;
+}
+.navigation-bar .nav-number{
+	color: white;
+}
+
+.search { 
+	float: right;
+	font-size: 20px; 
+	text-align: right;
+	margin-top: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 150px; 
+	border-top: 1px solid transparent; 
+	border-bottom: 1px solid transparent;
+	border-left: 1px solid transparent;
+	border-right: 1px solid lightgrey;
+}
+
+/* **************************************************NEW SECTION ************************************* */
+.description{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.small-article{
+	margin-top: 30px;
+}
+.big-article{
+	margin-top: 60px;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
+
+/* ******************************************************price-section**************************************************** */
+/* *********************************************************************************************************************** */
+.description .price{
+	width: 100%;
+	height: 100%;
+	padding: 20px 10px;
+	border: 1px solid grey;
+}
+
+.price pre{
+	margin: 3%;
+	padding-bottom: 10px;
+	border-bottom: 1px solid lightgrey;
+	text-align: center;
+	font-size: 18px;
+	color: grey;
+}
+/* ******************************************************DROPDOWN BUTTON**************************************************** */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.dropdown .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    display: none;
+    margin: 0;
+    list-style: none; 
+    width: 100%;
+    padding: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/** Button Styles **/
+.dropdown button {
+    background: white;
+    color: grey;
+    border: none;
+    margin: 0;
+    padding: 10px 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/** List Item Styles **/
+.dropdown a {
+    display: block;
+    padding: 0.2em 0.8em;
+    text-decoration: none;
+    background: #CCCCCC;
+    color: #333333;
+    cursor: pointer;
+}
+
+/** List Item Hover Styles **/
+.dropdown a:hover {
+    background: #BBBBBB;
+}
+
+.buy-now{
+	width: 100%;
+	padding: 15px 0;
+	border: 1px solid transparent;
+	background-color: #D9BD91;
+	font-size: 18px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+/* ******************************************************materials-section**************************************************** */
+/* ******************************************************specification-section************************************************ */
+.comon-styling{
+	width: 100%;
+	height: 100%;
+	padding: 20px 10px;
+	border-bottom: 1px solid grey;
+	border-right: 1px solid grey;
+}
+.comon-styling h3{
+	text-align: justify;
+	font-size: 20px;
+	font-weight: 200;
+	color: grey;
+}
+.comon-styling ul{
+	text-align: left;
+	padding: 0;
+}
+.comon-styling li{
+	list-style-type: none;
+	text-decoration: none;
+	text-align: justify;
+	line-height: 200%;
+	font-size: 18px;
+	color: black;
+}
+
+/* ******************************************************big-article**************************************************** */
+/* ******************************************************I am applying style on the right article - the one with col-66**************************************************** */
+.text{
+	margin: 4% auto;
+    border-bottom: 1px solid grey;
+}
+.text h3{
+	padding-left: 30px;
+	text-align: justify;
+	font-size: 20px;
+	font-weight: 200;
+	color: grey;
+}
+.text p{
+	padding-left: 30px;
+	text-align: justify;
+	font-size: 20px;
+	color: black;
+	line-height: 155%;
+}
+.light-images{
+	width: 100%;
+	min-height: 100%;
+}
+.light-images .fixed{
+	width: 79%;
+}
+
+.float{
+	width: 60%;
+}
+
+
+/* ******************************************************new row**************************************************** */
+.paragraph {
+	width: 60%;
+	margin: 10% auto;
+	text-align: center;
+}
+
+.paragraph .line{
+	font-size: 30px;
+	color: #D9BD91;
+}
+.paragraph h1{
+	font-family: 'Lato', sans-serif;
+	font-size: 34px;
+	font-weight: 600;
+	padding: 0 20%;
+}
+.paragraph .author{
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	color: grey;
+}
+.paragraph .btn{
+	width: 40%;
+	margin-top: 20px;
+	padding: 20px;
+	border: 1px solid #BCC6CC;
+	text-align: center;
+	color: #625D5D;
+	background-color: #BCC6CC;
+	cursor: pointer;
+}
+
+/* ************************************************** slider ************************************/
+
+.slider{
+	position: relative;
+	display: table;
+	width: 100%;
+	height: 500px;
+	background-color: black;
+	overflow: hidden;
+}
+.slider .inner{
+	position: absolute;
+	display: table-cell;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+
+}
+.slider-left{
+	padding-top: 8%;
+	margin: 0 auto;
+	text-align: center;
+}
+.slider-left h4{
+	color: white;
+	font-size: 18px;
+	font-family: 'Lora', serif;
+}
+
+.slider-left h2{
+	color: white;
+	font-family: 'Lora', serif;
+}
+.slider-left .arrows{
+	color: grey;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.slider-right {
+	padding-top: 4%; 
+	width: 300%;
+}
+.pull-right{
+	float: right;
+}
+
+/********************************** footer ***************************/
+.footer{
+	width: 100%;
+	height: 100%;
+}
+.footer .section{
+	width: 70%;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.footer .section h2 {
+	text-align: center;
+	color: grey;
+	margin-top: 10%;
+	padding: 20px 0;
+}
+.section > div{
+	text-align: center;
+	padding-top: 20px;
+}
+.section .middle {
+	border-left: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+}
+.section div img{
+	border-radius: 50%;
+}
+.section div p{
+	font-size: 20px;
+	line-height: 150%;
+	padding: 0 100px;
+	color: grey;
+}
+.section .btn{
+	width: 35%;
+	margin-top: 50px;
+	padding: 20px;
+	border: 1px solid #ececec;
+	color: #625D5D;
+	background-color: #ececec;
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.footer-container{
+	width: 100%;
+	height: 30%;
+	background-color: #ececec;
+	text-align: center;
+}
+.footer-container img{
+	padding: 40px 0;
+}
+.footer-container ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px 35px;
+}
+.footer-container li a{
+	text-decoration: none;
+	color: black;
+	transition: background-color 0.2s ease;
+}
+.footer-container li a:hover{
+	padding: 40px;
+	border: 3px groove pink ;
+	border-radius: 50%;
+	text-decoration: none;
+	background-color: #01C5BB	;
+	color:black;
+}

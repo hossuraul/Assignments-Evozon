@@ -1,0 +1,47 @@
+.container{
+	width: 80%;
+	margin: auto;
+	background-color: #99993d;
+}
+.nav{
+	width: 100%;
+	background-color: yellow;
+}
+.logo{
+	margin:0;
+	padding:0;
+	float: left;
+}
+.navlist ul{
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+}
+.navlist ul li{
+	float: left;
+	text-decoration: none;
+}
+.btn{
+	float:right;
+	background-color: #f44336;
+	border: none;
+	color: white;
+	padding: 10px 15px;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+.section{
+	clear: both;
+	float: left;
+}
+	
+.aside {
+	clear: both;
+	float: right;
+}
+
+
+.footer{}

@@ -1,0 +1,150 @@
+html { 
+ 	height: 100%;
+}
+body{
+
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	/*background-image: url("https://images.unsplash.com/photo-1443890923422-7819ed4101c0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=a9c79afe3d7a158a876502b1cc548332");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  position: relative;
+	      background-color: rgba(0, 0, 0, 0.5);*/
+}
+.wrapper{
+	width: 100%;
+	height: 100%;
+	background-image: url("https://images.unsplash.com/photo-1442405740009-7b57cca9d316?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=8ad0e3579b66e754924530ded828521b");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  position: relative;
+	      
+
+}
+.container{
+	width: 100%;
+	height: 100%;
+	position: relative;	
+	
+}
+section{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    box-shadow: 1px 1px 5px black;
+    border: 1px solid black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+.color{
+	width: 100%;
+    height: 100%;
+    box-shadow: 0 0 2px 5000px rgba(0, 0, 0, 0.4);
+    border: 1px solid black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+}
+article{
+	float: left;
+	width: 65%;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 15px 30px;
+}
+article > * {
+	margin: auto;
+	padding: 10px 40px 15px 5px;
+}
+article h1{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #E3592B;
+	font-size: 40px;
+}
+article h3{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+}
+aside{
+	float: right;
+	width: 35%;
+	height: 100%;
+	background-color: white;
+	padding: 15px 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+aside .profilepic{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin: auto;
+}
+aside p{
+	text-align: center;
+	font-family: arial;
+	font-size: 16px;	
+	color: grey;
+}
+aside a{
+	text-decoration: none;
+	font-family: arial;
+	font-size: 18px;
+}
+aside a:hover{
+	background-color: yellow;
+}
+input{
+	width: 80%;
+}
+input[type=email]{
+	box-sizing: border-box;
+	border: 1px solid lightgrey;
+	font-size: 14px;
+}
+input[type=password]{
+	box-sizing: border-box;
+	border: 1px solid lightgrey;
+	font-size: 14px;
+}
+
+
+.btn-primary{
+	width: 100%;
+	background-color: #091D9E;
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+	border: none;
+}
+form > * {
+	margin: 10px 0;
+	padding: 10px 5px;
+	width: 100%;
+}
+.down-center{
+	box-sizing: border-box;
+	padding: 10px 0;
+	width: 100%;
+}
+

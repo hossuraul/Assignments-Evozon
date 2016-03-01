@@ -1,0 +1,84 @@
+html,
+body{
+	max-width: 960px;
+	width: 100%;
+	min-height: 100%;
+	margin: 0 auto;
+	background-color: #4A4A4A;
+}
+
+.main {
+	width: 60%;
+	height: 100%;
+	margin: 20px auto;
+	background-color: white;
+
+}
+.text{
+	padding: 30px;
+	margin: 0 30px;
+	border-bottom: 1px solid #DCDCD7;
+}
+
+.text > h2{
+	color: #B6495A;
+}
+
+.text > p{
+	color: #DCDCD7;
+}
+
+.title h1{
+	color: #4A4A4A;
+	padding-bottom: 20px;
+}
+
+.left{
+	float: left;
+	width: 70%;
+	height:50px;
+	padding: 0;
+}
+.left p{
+	margin: 0;
+	color: #9D949C;
+	font-size: 18px;
+}
+.left span{
+	color:#4A4A4A;
+}
+.right {
+	float: right;
+	width: 30%;
+	height: 50px;
+}
+.right p {
+	float: right;
+	margin: 0;
+	font-weight: 900;
+}
+.right .color-change{
+	color: #9D949C;
+}
+.sub-title{
+	border-bottom:none;
+}
+article{
+	background-color: #DCDCD7;
+	margin-top: 10px;
+}
+article .title{
+	border-bottom: 1px solid black;
+}
+article .title h1{
+	color: #9D949C;
+	font-size: 24px;
+	font-weight: 700;
+	letter-spacing: 4px;
+}
+article .sub-title{
+	padding-bottom: 70px;
+}
+article .sub-title h2{
+	padding-right: 200px;
+}

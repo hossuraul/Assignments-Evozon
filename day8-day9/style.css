@@ -1,0 +1,275 @@
+html,
+body{
+	height: 100%;
+	max-height: 100%;
+	min-width: 1500px;
+	margin: 0 auto;
+	padding: 0;	
+}
+
+.vertical {
+	position: relative;
+	display: table;
+	width: 100%;
+}
+
+.navigation-bar{
+	position: absolute;
+	width: 100%;
+	background-color: white;
+}
+
+.vertical .inner{
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.header{
+	height: 100%;
+	background-image: url("pictures/rsz_iceland.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.navigation {
+	list-style: none;
+}
+
+.navigation > li{
+	height: 100%;
+	display: inline-block;
+	float: left;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.navigation li a{
+	text-decoration: none;
+}
+
+.navigation .fa-circle-o{
+	padding-top: 20px;
+}
+
+.navigation .search-bar{
+	width: 100%;
+	margin-top: 18px;
+	padding: 5px 10px;
+	border-top: 1px solid transparent;
+	border-right: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	border-left: 2px solid lightgrey;
+}
+
+.navigation-bar .top-right{
+	float: right;
+}
+.navigation-bar .nav-right{
+	float: left;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.navigation-bar .nav-right img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.navigation-bar  .fa-th-list{
+	float: right;
+	margin: 0 auto;
+	padding-top: 15px;
+	font-size: 18px;
+}
+
+.navigation-bar  p{
+	float: right;
+}
+
+.footer-bar{
+	position: absolute;
+	max-height: 150px; 
+	width: 100%;
+	margin: 0 auto;
+	bottom: 0;
+}
+.pull-left{
+	width: 50%;
+
+}
+.pull-left li{
+	display: inline-block;
+	list-style-type: none;
+	padding: 0 20px;
+}
+.pull-left li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.pull-left li a:hover{
+	text-decoration: underline;
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.pull-right{
+	width: 50%;
+	padding-left: 100px;
+}
+.pull-right li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 0 10px;
+}
+.pull-right li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+}
+.pull-right li a:hover{
+	text-decoration: underline;
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.hero-unit{
+	text-align: center;
+	margin: 0 auto;
+}
+
+.hero-unit .title{
+	font-size: 74px;
+  	text-transform: none;
+  	color: white;
+} 
+
+.hero-unit .sub-title{
+	font-size: 32px;
+	color: white;
+}
+
+
+/* ****************************** MAIN BEGINS ******************************* */
+.text{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.text p {
+	padding:20px 50px;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.text h2 {
+	padding:0 50px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.text .map-img{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.img-stretch{
+	width: 100%;
+}
+.politics {
+	margin-top: 40px;
+}
+.politics-list li{
+	list-style-type: none;
+	display: inline;
+	text-align: center;
+	padding: 0 20px;
+}
+.politics-list li a{
+	text-decoration: none;
+	color: black;
+}
+.politics-list li:hover{
+	border-bottom:3px solid black;
+
+}
+
+.politics-list{
+	text-align: justify;
+	margin: 0 30px;
+	padding: 0 30px;
+	font-size: 18px;
+	border-bottom: 1px solid black;
+}
+
+.municipalities{
+	width: 100%;
+	padding:20px 50px;
+}
+.color-change{
+	background-color: #E1EAED;
+	-webkit-animation-name: colorchange;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-iteration-count:infinite;
+	animation-name: colorchange;
+	animation-duration: 4s;
+	animation-iteration-count:infinite;
+}
+@-webkit-keyframes colorchange{
+	0% {background-color: #CCCCCC;}
+	25%{background-color: #CCCC9A;}
+	50%{background-color: #666666;}
+	100%{background-color: #999967;}
+}
+@keyframes colorchange{
+	0% {background-color: #CCCCCC;}
+	25%{background-color: #CCCC9A;}
+	50%{background-color: #666666;}
+	100%{background-color: #999967;}
+}
+.left,
+.right {
+	line-height: 40px;
+}
+
+.left .index{
+	float: right;
+}
+
+.index > li{
+	list-style-type: none;
+}
+
+.index a{
+	text-decoration: underline;
+	color: black;
+	font-size: 24px;
+}
+
+footer {
+
+	width: 100%;
+}
+footer p{
+	margin-top: 30px;
+	font-size: 18px;
+}
+footer li{
+	list-style: none;
+	display: inline-block;
+}
+.content a{
+	color: black;
+	padding: 0 10px;
+}
+footer .content{
+	text-align: center;
+	margin: 10px;
+	padding: 20px 10px;
+}

@@ -1,0 +1,54 @@
+html,
+body{
+	width: 100%;
+	max-height: 100%;
+	margin: 0 auto;
+	background-image: url("images/ZoQxhRh.jpg") ;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.main{
+	max-width: 500px;
+	height: 100%;
+	margin: 50px auto;
+	padding: 30px 50px;
+	background-color: white;
+}
+.title{
+	text-align: center;
+	line-height: 100%;
+	color: #2B1113;
+	padding-bottom: 20px;
+}
+.title i{
+	font-size: 35px;
+	padding-bottom: 20px;
+}
+
+section{
+	padding:20px;
+}
+section p{
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.select{
+	color: #B0414D;
+	border: 1px solid #DCD8D2;
+	padding: 5px;
+	margin: 0 5px;
+}
+
+.long-select{
+	padding: 0 10px;
+}
+
+.btn{
+	color: white;
+	background-color: #B0414D;
+}
+
+.btn-container{
+	text-align: center;
+}

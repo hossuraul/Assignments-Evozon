@@ -1,0 +1,16 @@
+.container{
+	border: 2px dashed navy;
+	padding: 30px 50px;
+	margin: 10px; 
+}
+h1{
+	text-align: center;
+
+}
+img{
+	padding-left: 156px;
+
+}
+p{
+	text-align: justify;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Payment</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="grid.css">
+	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<main>
+	<div class="container">
+		<header>
+			<img src="pictures/jessie.jpg">
+			<div>
+				<h1>JESSE PINKMAN</h1>
+				<h3>Some other descriptive text. Adress oe Email?</h3>
+			</div>
+		</header>
+		<section class="row">
+			<div class="col-100 details">
+				<div class="col-50">
+					<p class="focus">PAYMENT DETAILS</p>
+					<div class="arrow-up"></div>
+				</div>
+				<div class="col-50">
+					<p>BILLING INFO</p>
+					<div class="arrow-up"></div>
+				</div>
+			</div>
+<!-- user-name starts -->
+			<div class="col-100 user-name">
+				<div class="col-50">
+					<form>
+						<input type="text" value="First name">
+					</form>
+				</div>
+				<div class="col-50">
+					<div class="col-20">
+						<div class="dropdown">
+						  <button class="dropbtn">M</button>
+						  <div class="dropdown-content">
+						    <a href="#">S</a>
+						    <a href="#">L</a>
+						    <a href="#">XL</a>
+						  </div>
+						</div>
+					</div>
+
+					<div class="col-80">
+						<input type="text" value="Last name">
+					</div>
+				</div>
+			</div>
+<!-- user-email starts -->
+			<div class="col-100 user-email">
+				<form>
+					<input type="email" value="Your email address">
+				</form>
+			</div>
+<!-- question section starts -->
+			<div class="col-100 question">
+				<form>
+					<input type="text" value="What is this payment for?">
+				</form>
+			</div>
+<!-- user-payment section starts -->
+			<div class="col-100 user-payment">
+				<div class="col-50 left">
+					<p>$50.00</p>
+				</div>
+				<div class="col-50 right">
+					<div class="col-33"><p>$1</p></div>
+					<div class="col-33"><p>$5</p></div>
+					<div class="col-33"><p>$10</p></div>
+					<div class="col-33"><p>$20</p></div>
+					<div class="col-33"><p id="middle" onclick="getload()">$50</p></div>
+					<div class="col-33"><p>$100</p></div>
+					<div class="col-33"><p>$500</p></div>
+					<div class="col-33"><p>$1,000</p></div>
+					<div class="col-33"><p><i class="fa fa-ellipsis-h"></i></p></div>
+				</div>
+			</div>
+
+			<footer>
+				<div class="col-50 footer-left">
+					<form>
+						<input type="checkbox" checked> REMEMBER ME?<i class="fa fa-info-circle"></i>
+					</form>
+				</div>
+				<div class="col-50 footer-right">
+					<a href="#">PAY NOW</a>
+				</div>
+			</footer>
+		</section>
+	</div>
+</main>
+<script type="text/javascript">
+	function getfocus() {
+    document.getElementById("middle").focus();
+}
+</script>
+</body>
+</html>

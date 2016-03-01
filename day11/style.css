@@ -1,0 +1,478 @@
+html,
+body{
+	width: 100%;
+	height: 100%;
+}
+
+main{
+	width: 100%;
+	height: 100%;
+}
+header{
+	width: 100%;
+	max-height: 150px;
+}
+header .upper-nav{
+	background-color:#333333;
+	color: #AAAAAA;
+	padding: 10px;
+}
+header .upper-nav li{
+	padding: 0 10px;
+	font-weight: 600;
+}
+header .upper-nav p{
+	border-right: 1px solid #838383;
+	padding-right: 15px;
+}
+.nav-pills .btn-default{
+	background-color: #333333;
+	border: 1px solid transparent;
+	color: #838383;
+	font-size: 14px;
+	margin-top: -6px;
+}
+/* ************************* bottom-nav (second navigation - bar) *************** */
+.bottom-nav h1{
+	margin-top: 30px;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.bottom-nav .nav-pills{
+	padding: 30px 0;
+}
+
+.bottom-nav .nav-pills li a{
+	background-color: #FFFFFF;
+	color: #000000;
+	font-weight: 700;
+}
+.bottom-nav .nav-pills .special{
+	background-color: #FFFFFF;
+	color: #000000;
+	font-weight: 700;
+	padding: 0 10px;
+	margin-top: 10px;
+}
+
+/* ******************** jumbotron *************** */
+.jumbotron{
+	background-image: url("pictures/jumbotron.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	text-align: center;
+}
+.jumbotron h2{
+	padding-top: 60px;
+	color: #000000;
+	font-weight: 900;
+}
+
+.jumbotron p a{
+	font-size: 16px;
+	color: #969696;
+	text-decoration: none;
+
+}
+
+/***************** CONTENT ******************/
+.photos img{
+	margin-bottom: 20px;
+}
+.photos .small {
+	border:1px solid orange;
+}
+.small-pic img{
+	width: 100%;
+}
+
+/* **************************** stars **************************** */
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+fieldset, label { margin: 0; padding: 0; }
+body{ margin: 20px; }
+h1 { font-size: 1.5em; margin: 10px; }
+
+/****** Style Star Rating Widget *****/
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+  float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+/* ******************** The stars are finished ************/
+.text-section >*{
+	padding:0 60px;
+}
+.text-section h2{
+	color: #000000;
+	font-size: 20px;
+	font-weight: 600;
+}
+.reviews p{
+	color: #ADADAD;
+	font-size: 16px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.fprice{
+	float: left;
+	margin: 5px 15px 5px 0;
+	color: #999999;
+	text-decoration: line-through;
+}
+.price{
+	float: left;
+	padding: 0;
+	margin: 0;
+	color: #010101;
+	font-weight:600; 
+}
+.lorem{
+	margin: 50px 0;
+	width: 80%;
+}
+.lorem p{
+	color: #666666;
+	font-weight: 500;
+	font-size: 16px;
+}
+.lorem span{
+	color: #52CB42;
+	font-weight: 600;
+}
+.lorem hr{
+	border: 1px solid lightgrey;
+}
+
+.colors ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 5px;
+}
+.colors ul .color-text{
+	margin-right: 25px;
+	font-size: 18px;
+}
+.colors .pink{
+	background-color: #E6BEF3;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px; 
+}
+.colors .mustard{
+	background-color: #DBB471;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px; 
+}
+.colors .grey{
+	background-color: #C9D2D9;
+	border: 3px solid #A0A7AD;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px; 
+}
+.colors .lightblue{
+	background-color: #B4D8D4;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px; 
+}
+.size ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 5px;
+}
+.size ul .text-size{
+	margin-right: 50px;
+	font-size: 18px;
+}
+.size .S{
+	width: 30px;
+	height: 30px;
+	padding: 3px;
+	border: 1px solid lightgrey;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 500;
+}
+.size .M{
+	width: 30px;
+	height: 30px;
+	padding: 3px;
+	border: 1px solid lightgrey;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 500;
+}
+.size .L{
+	width: 30px;
+	height: 30px;
+	padding: 3px;
+	border: 1px solid lightgrey;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 500;
+}
+.size .XL{
+	width: 30px;
+	height: 30px;
+	padding: 3px;
+	border: 1px solid lightgrey;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 500;
+}
+.select-nb{
+	width: 80%;
+}
+.select-nb ul li{
+	list-style: none;
+	display: inline-block;
+}
+.select-nb .quantity{
+	margin-right: 20px;
+	font-size: 18px;
+}
+.select-nb .text-box{
+	width: 80px;
+	padding: 5px 0;
+	text-align: center;
+	font-weight: 900;
+	color: black;
+}
+.select-nb hr{
+	border:1px solid lightgrey;
+}
+.buy li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 25px 15px;
+}
+.buy li button{
+	width: 155px;
+	height: 45px;
+	background-color: #333333;
+	color: #EEEEEE;
+	border:1px solid transparent;
+	text-align: center;
+	font-weight: 600;
+}
+.buy li a{
+	text-decoration: none;
+	color: #767676;
+	font-weight: 600;
+	font-size: 16px;
+}
+.buy hr{
+	border: 1px solid lightgrey;
+	width: 78%;
+	margin-left: 0;
+}
+/* ****** COLLAPSE SECTION ********* */
+.container-collapse{
+	width: 70%;
+	margin-left: 50px;
+	background-color: #F8F8F8;
+}
+.container-collapse .btn{
+	background-color: transparent;
+	font-size: 18px;
+	font-weight: 600;
+	outline: transparent;
+}
+.ordering-buttons li{
+	list-style: none;
+}
+/* ************  PHOTO SECTIOM ******** */
+
+.related-items{
+	text-align: center;
+}
+.related-items h3{
+	color: #838383;
+	line-height: 200%;
+	margin-bottom: 40px;
+	font-size: 18px;
+}
+.related-items h1 {
+  text-transform: uppercase;
+  font-family: 'Quattrocento Sans', sans-serif;
+  line-height: 100%;
+  font-weight: 700;
+}
+.related-items h1:before,
+.related-items h1:after {
+    background-color: #E0C087;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 4%;
+}
+.related-items h1:before {
+    right: 0.5em;
+    margin-left: 0;
+}
+.related-items h1:after {
+  left: 0.5em;
+  margin-right: 0;
+}
+
+.related-items .img{
+	display: inline-block;
+	margin: 0 10px;
+}
+.img p{
+	color: #B7B7B7;
+	font-size: 16px;
+	line-height: 150%;
+}
+.img h4{
+	font-weight: 600;
+	line-height: 100%;
+}
+
+.ratingg {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  line-height: 200%;
+}
+.ratingg > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+  font-size: 18px;
+}
+.ratingg > span:hover:before,
+.ratingg > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   color: #E3BA48;
+}
+/* ********************* Here starts the footer ************** */
+footer{
+	margin-top: 100px;
+}
+.contain{
+	width: 60%;
+	margin: 0 auto;
+}
+.upper{
+	background-color: #333333;
+}
+.upper h3{
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+}
+.upper li{
+	list-style-type: none;
+	color: #8E8E8E;
+	font-weight: 600;
+	line-height: 200%;
+}
+.upper p{
+	color:#8E8E8E;
+	font-weight: 600;
+	line-height: 200%;
+}
+.upper .left-align{
+	float:left;
+}
+.upper .left-align ul{
+	padding: 0;
+}
+.upper .right-align{
+	float:right;
+}
+.upper .right-align ul{
+	padding: 0;
+}
+.space{
+	padding: 21px;
+}
+.space span{
+	color: #A9A9A9;
+}
+.space span i{
+	margin: 40px 15px;
+}
+.space .email{
+	background-color: #333333;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 5px;
+    outline: none;
+    color: white;
+}
+.bottom-footer{
+	padding: 15px 0;
+	background-color: #252525;
+	color: #808080;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+@media all and (max-width: 1560px) and (min-width: 1240px){
+	.space .fa{
+		margin: 20px 10px;
+	}
+	.select-nb .btn{
+		display: none;
+	}
+	.jumbotron h2{
+		margin-left: 300px;
+	}
+	.jumbotron p{
+		margin-left: 300px;
+	}
+	.upper{
+		max-height: 100%;
+	}
+	.left-align{
+		float: none;
+		width: 100%;
+	}
+	.right-align{
+		float: none;
+		width: 100%;
+	}
+
+}

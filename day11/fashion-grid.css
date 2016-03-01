@@ -1,0 +1,33 @@
+*{
+	box-sizing: border-box;
+}
+
+:after,
+:before{
+	box-sizing: border-box;
+}
+
+.css-row:before,
+.css-row:after{
+	content:"";
+	display: table;
+}
+
+.css-row:after {
+  clear: both;
+}
+
+[class^="col-"],
+[class*=" col-"] {
+  float: left;
+}
+
+.col-33 {
+  width: 33.3333%;
+}
+.col-50 {
+  width: 50%;
+}
+.col-100{
+	width: 100%;
+}
